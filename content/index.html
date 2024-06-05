@@ -4,19 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Planner</title>
+    <meta http-equiv="content-security-policy" content="script-src 'self';">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
+        <button id="day">
+            <img src="./icon/home.svg" alt="Forward">
+            Today
+        </button>
         <button id="previous">
             <img src="./icon/back.svg" alt="Previous">
         </button>
         <button id="forward">
             <img src="./icon/forward.svg" alt="Forward">
-        </button>
-        <button id="day">
-            <img src="./icon/home.svg" alt="Forward">
-             Today
         </button>
         <!-- <button id="week">
             <img src="./icon/week.svg" alt="Forward">
@@ -40,5 +41,5 @@
     
     
 </body>
-<script type="module" src="../src/main.js"></script>
+<script type="module" src="../src/renderer.js"></script>
 </html>

@@ -5,7 +5,7 @@ export const Goal = {
     add_goal: async function(title, date) {
         await query(
             `insert into goal(
-                title, 
+                title,
                 is_complete, 
                 date, 
                 created_on
@@ -40,10 +40,10 @@ export const Goal = {
         let value = (is_complete) ? 1 : 0;
         await query(
             `update goal
-            set completion=?
+            set is_complete=?
             where goal_id=?`,
             value,
-            is_complete
+            goal_id
         )
     }
 }

@@ -1,5 +1,5 @@
 
-import { render_month, render_day } from "./controllers/month.js";
+import { render_month, render_day } from "./controllers.js";
 import { query, setup_database } from "./data.js";
 
 async function init() {
