@@ -1,0 +1,17 @@
+{
+  "name": "planner",
+  "version": "1.0.0",
+  "main": "src/preload.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "electron": "^30.0.9",
+    "jquery": "^3.7.1",
+    "sqlite3": "^5.1.7"
+  }
+}
